@@ -2,9 +2,9 @@
 
 This is a Spring Boot application that provides a Java web service that analyzes api data and returns results based on some criteria. 
 
-IDE: Eclipse
-Java version: Java 8
-Maven version: 3.5.0 
+- IDE: Eclipse
+- Java version: Java 8
+- Maven version: 3.5.0 
 
 Download the project into a folder named 'alert' (or any other name you like)
 
