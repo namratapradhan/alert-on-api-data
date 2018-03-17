@@ -15,10 +15,9 @@ Using command line, go to the base of the folder and run the following commands:
 >> java -jar target/alert-0.0.1-SNAPSHOT.jar
 
 
-To access the web service there are two end points
- 1. http://localhost:8000/alert
- 2. http://localhost:8000/alert/date/{date}
-    Replace {date} with date in this format "yyyy-MM-dd HH:mm:ss". For example: http://localhost:8000/alert/date/2018-03-16 05:00:00
+To access the web service the end point is http://localhost:8000/alert/date/{date}
+Replace {date} with date and time in 24 hour date format "yyyy-MM-dd HH:mm:ss".
+For example: http://localhost:8000/alert/date/2018-03-16 15:00:00
     
     
 

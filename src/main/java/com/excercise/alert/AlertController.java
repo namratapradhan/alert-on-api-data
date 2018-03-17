@@ -15,7 +15,7 @@ public class AlertController {
 
 	@RequestMapping(value = "/alert/date/{date}", method = RequestMethod.GET)
 	@ResponseBody
-	public AlertResponse getAlert(@PathVariable String date) {
+	public AlertResponse getAlert(@PathVariable Long date) {
 		return alertService.getAlert(date);
 	}
 
