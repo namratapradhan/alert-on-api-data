@@ -6,18 +6,27 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Alert {
 
-	private LocalDateTime timestamp;
+	private String timestamp;
 	private String name;
 	private Integer sum;
-
+	@JsonIgnore
+	private LocalDateTime localDateTime;
 	@JsonIgnore
 	private Boolean thresholdReached = false;
 
-	public LocalDateTime getTimestamp() {
+	public LocalDateTime getLocalDateTime() {
+		return localDateTime;
+	}
+
+	public void setLocalDateTime(LocalDateTime localDateTime) {
+		this.localDateTime = localDateTime;
+	}
+
+	public String getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(LocalDateTime timestamp) {
+	public void setTimestamp(String timestamp) {
 		this.timestamp = timestamp;
 	}
 

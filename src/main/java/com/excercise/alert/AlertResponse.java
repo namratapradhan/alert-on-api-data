@@ -1,36 +1,35 @@
 package com.excercise.alert;
 
-import java.time.LocalDateTime;
-import java.util.Collection;
+import java.util.List;
 
 public class AlertResponse {
 
-	private LocalDateTime start;
-	private LocalDateTime end;
-	private Collection<Alert> alerts;
+	private String start;
+	private String end;
+	private List<Alert> alerts;
 
-	public Collection<Alert> getAlerts() {
-		return alerts;
-	}
-
-	public LocalDateTime getEnd() {
-		return end;
-	}
-
-	public LocalDateTime getStart() {
+	public String getStart() {
 		return start;
 	}
 
-	public void setAlerts(Collection<Alert> alerts) {
-		this.alerts = alerts;
+	public void setStart(String start) {
+		this.start = start;
 	}
 
-	public void setEnd(LocalDateTime end) {
+	public String getEnd() {
+		return end;
+	}
+
+	public void setEnd(String end) {
 		this.end = end;
 	}
 
-	public void setStart(LocalDateTime start) {
-		this.start = start;
+	public List<Alert> getAlerts() {
+		return alerts;
+	}
+
+	public void setAlerts(List<Alert> alerts) {
+		this.alerts = alerts;
 	}
 
 }

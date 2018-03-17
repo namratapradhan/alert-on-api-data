@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>alert</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Spring Boot Web Service for alert</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

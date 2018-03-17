@@ -1,15 +1,6 @@
 package com.excercise.alert;
 
-import java.io.Serializable;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-
-@JsonSerialize
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class DataModel implements Serializable {
-
-	private static final long serialVersionUID = 1L;
+public class DataModel {
 
 	private Long date;
 	private String name;
